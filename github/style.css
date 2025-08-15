@@ -99,7 +99,7 @@ body {
     min-height: 64vh;
     display: grid;
     place-items: center;
-    background: url('https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1400&auto=format&fit=crop') center/cover no-repeat;
+    background: url('bg.avif') center/cover no-repeat;
     border-bottom: 1px solid rgba(255, 255, 255, .06);
 }
 
@@ -379,4 +379,5 @@ body {
     .nav-menu.show {
         display: flex;
     }
+
 }
