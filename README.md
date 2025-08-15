@@ -13,9 +13,9 @@ It shows profile details like username, bio, followers, following, location, and
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home Page](screenshots/screenshot1.png)
-![Features](screenshots/screenshot3.png)
-![Contact](screenshots/screenshot4.png)
+![Home Page](screenshots/Screenshot1.png)
+![Features](screenshots/Screenshot3.png)
+![Contact](screenshots/Screenshot4.png)
 
 ### 🔍 Profile Search Result
 ![Search Result](screenshots/screenshot2.png)
@@ -62,7 +62,8 @@ github-profile-finder/
 
 📬 Contact
 
-Name: Akhilesh Chaubey
-📧 Email: chaubeyakhilesh51@gmail.com
-💻 GitHub: akhileshchaubey51
-📱 Phone: +91 9759790023
+**Name:** Akhilesh Chaubey  
+**📧Email:** chaubeyakhilesh51@gmail.com  
+**💻GitHub:** [akhileshchaubey51](https://github.com/akhileshchaubey51)  
+**📱 Phone:** +91 9759790023
+
