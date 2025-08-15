@@ -14,11 +14,13 @@ It shows profile details like username, bio, followers, following, location, and
 
 ### 🏠 Home Page
 ![Home Page](screenshots/Screenshot1.png)
+### 🌟 Features Page
 ![Features](screenshots/Screenshot3.png)
+### 📞 Contact Page
 ![Contact](screenshots/Screenshot4.png)
 
 ### 🔍 Profile Search Result
-![Search Result](screenshots/screenshot2.png)
+![Search Result](screenshots/Screenshot2.png)
 
 ---
 
