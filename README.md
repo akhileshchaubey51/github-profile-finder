@@ -18,9 +18,11 @@ It shows profile details like username, bio, followers, following, location, and
 ![Features](screenshots/Screenshot3.png)
 ### 📞 Contact Page
 ![Contact](screenshots/Screenshot4.png)
+### 🧐 Searching Page
+![Contact](screenshots/Screenshot2.png)
 
 ### 🔍 Profile Search Result
-![Search Result](screenshots/Screenshot2.png)
+![Search Result](screenshots/Screenshot5.png)
 
 ---
 
