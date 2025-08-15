@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GitHub Profile Finder — Codeveda</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <header class="site-header" role="banner">
+        <nav class="nav container" aria-label="Primary">
+            <a href="#home" class="brand">Codeveda<span>Hub</span></a>
+            <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu"
+                aria-label="Toggle navigation">☰</button>
+            <ul id="nav-menu" class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#search">Search</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <main id="home" class="hero" role="main">
+        <div class="overlay"></div>
+        <div class="hero-inner container">
+            <h1 class="hero-title">Discover GitHub Profiles in Seconds</h1>
+            <p class="hero-sub">
+                Enter a username to fetch profile details via the GitHub REST API.
+            </p>
+            <a href="#search" class="btn btn-light">Start Searching ↓</a>
+        </div>
+    </main>
+
+    <!-- ===== SEARCH SECTION ===== -->
+    <section id="search" class="section container">
+        <header class="section-head">
+            <h2>GitHub Profile Finder</h2>
+            <p>Type any GitHub username (e.g., <code>octocat</code>, <code>torvalds</code>) and hit Search.</p>
+        </header>
+
+        <div class="search-box" role="search">
+            <label class="sr-only" for="username">GitHub Username</label>
+            <input id="username" type="text" placeholder="Enter GitHub username..." autocomplete="off" />
+            <button id="searchBtn" class="btn">Search</button>
+        </div>
+
+        <div id="status" class="status" aria-live="polite"></div>
+
+        <div id="profile" class="card" hidden></div>
+    </section>
+
+    <!-- ===== FEATURES ===== -->
+    <section id="features" class="section section-alt">
+        <div class="container">
+            <header class="section-head">
+                <h2>Why this tool?</h2>
+                <p>Fast, lightweight, and built with semantic HTML + accessible patterns.</p>
+            </header>
+
+            <div class="grid">
+                <article class="feature">
+                    <h3>⚡ Instant Lookup</h3>
+                    <p>Fetches public profile data directly from the GitHub REST API.</p>
+                </article>
+                <article class="feature">
+                    <h3>🎯 Minimal UI</h3>
+                    <p>Clean design that stays out of the way and highlights what matters.</p>
+                </article>
+                <article class="feature">
+                    <h3>📱 Responsive</h3>
+                    <p>Mobile-first layout with graceful scaling to tablets & desktops.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer id="footer" class="site-footer" role="contentinfo">
+        <div class="container footer-grid">
+            <div>
+                <div class="brand brand-footer">Codeveda<span>Hub</span></div>
+                <p class="muted">Made with ❤️ for demo & learning purposes.</p>
+            </div>
+            <div>
+                <h4>Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#search">Search</a></li>
+                    <li><a href="#features">Features</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Contact</h4>
+                <p class="muted">Name: Akhilesh Chaubey</p>
+                <p class="muted">Email: chaubeyakhilesh51@gmail.com</p>
+                <p class="muted">Phone: +91 9759790023</p>
+
+            </div>
+        </div>
+
+        <div class="copy muted">© 2025 CodevedaHub — All rights reserved.</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
